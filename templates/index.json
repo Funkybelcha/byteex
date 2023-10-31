@@ -66,8 +66,8 @@
         "template--21547405017391__97740a39-57f4-4fc6-bd77-828c81fa1786-button-1": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
-            "button_link": "",
+            "button_label": "Customize Your Outfit",
+            "button_link": "shopify:\/\/collections\/all",
             "button_style_secondary": false
           }
         }
