@@ -457,7 +457,7 @@
 
 
 
-.button-banner{
+.button-arrow{
   display: block;
   margin: 30px auto;
   width: 25px;
@@ -470,7 +470,7 @@
 
 }
 
-.button-banner::after{
+.button-arrow::after{
   content: "";
   display: block;
   width: 2px;
