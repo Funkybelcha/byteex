@@ -218,6 +218,11 @@
         --variant-pills-shadow-blur-radius: {{ settings.variant_pills_shadow_blur }}px;
       }
 
+      @font-face {
+        font-family: "SofiaProRegular";
+        src: url("{{ '[SofiaProRegular]' | file_url }}") format("[woff]");
+      }
+
       *,
       *::before,
       *::after {
@@ -248,9 +253,6 @@
         body {
           font-size: 1.6rem;
         }
-      }
-      @font-face {
-      font-family: "SofiaProRegular";src: url({{ "SofiaProRegular" | asset_url }}) format("woff");
       }
     {% endstyle %}
 
