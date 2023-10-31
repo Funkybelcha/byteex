@@ -82,7 +82,7 @@
                   </p>
                 {%- when 'text' -%}
                   <div class="image-with-text__text rte {{ block.settings.text_style }}" {{ block.shopify_attributes }}>
-                    <span></span> {{ block.settings.text }}
+                    <span style="background-image: url('bg.jpg');"></span> {{ block.settings.text }}
                   </div>
                 {%- when 'button' -%}
                   {%- if block.settings.button_label != blank -%}
@@ -411,6 +411,11 @@
       "name": "t:sections.image-with-text.blocks.text.name",
       "limit": 3,
       "settings": [
+        {
+          "type": "image_picker",
+          "id": "image-icon",
+          "label": "t:sections.image-with-text.settings.image-icon.label"
+        },
         {
           "type": "richtext",
           "id": "text",
