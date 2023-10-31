@@ -42,6 +42,7 @@
         "template--21547405017391__97740a39-57f4-4fc6-bd77-828c81fa1786-text-1": {
           "type": "text",
           "settings": {
+            "image-icon": "shopify:\/\/shop_images\/icon-1.png",
             "text": "<p>Beautiful, comfortable loungewear for day or night.<\/p>",
             "text_style": "body"
           }
