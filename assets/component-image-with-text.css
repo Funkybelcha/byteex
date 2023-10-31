@@ -456,5 +456,14 @@
 }
 
 .button-banner::after{
+  display: block;
+  margin: 30px auto;
+  width: 25px;
+  height: 25px;
+  border-top: 2px solid #000;
+  border-left: 2px solid #000;
+
+  transform: rotate(135deg);
+
   
 }
