@@ -421,3 +421,8 @@
     row-gap: var(--grid-desktop-vertical-spacing);
   }
 }
+
+.icons {
+  display: flex;
+  align-items: center;
+}
