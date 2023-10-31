@@ -2823,7 +2823,7 @@ details[open] > .header__submenu {
 .header__menu-item span {
   transition: text-decoration var(--duration-short) ease;
   color: #565656;
-  font-family: Sofia Pro;
+  font-family: SofiaProRegular;
   font-size: 17px;
   font-style: normal;
   font-weight: 400;
