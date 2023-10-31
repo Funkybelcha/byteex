@@ -59,7 +59,7 @@
           "type": "text",
           "settings": {
             "image-icon": "shopify:\/\/shop_images\/icon-3.png",
-            "text": "<p>Our signature fabric is incredibly comfortable — unlike &lt;br&gt; anything you’ve ever felt.<\/p>",
+            "text": "<p>Our signature fabric is incredibly comfortable — unlike &lt;\/br&gt; anything you’ve ever felt.<\/p>",
             "text_style": "body"
           }
         },
