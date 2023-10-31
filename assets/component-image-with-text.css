@@ -427,6 +427,13 @@
   align-items: center;
   margin-left: 4px;
   margin-top: 1.1125rem;
+  color: #676869;
+font-family: Sofia Pro;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 23px; /* 153.333% */
+letter-spacing: 0.45px;
 }
 
 .icons img {
