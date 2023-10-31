@@ -50,6 +50,7 @@
         "df90fea9-28dd-4028-9aa8-a32b3dd6afbe": {
           "type": "text",
           "settings": {
+            "image-icon": "shopify:\/\/shop_images\/icon-2.png",
             "text": "<p>No wasteful extras, like tags or plastic packaging.<\/p>",
             "text_style": "body"
           }
@@ -57,6 +58,7 @@
         "09195817-8c7d-4357-b22c-6eb0826c6faf": {
           "type": "text",
           "settings": {
+            "image-icon": "shopify:\/\/shop_images\/icon-3.png",
             "text": "<p>No wasteful extras, like tags or plastic packaging.<\/p>",
             "text_style": "body"
           }
