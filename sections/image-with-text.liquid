@@ -82,7 +82,10 @@
                   </p>
                 {%- when 'text' -%}
                   <div class="image-with-text__text rte {{ block.settings.text_style }}" {{ block.shopify_attributes }}>
-                    <span style="background-image: url('bg.jpg');"></span> {{ block.settings.text }}
+                    <span style="background-image: url('{{
+                      section.settings.image
+                      | image_url: width: 31
+                    }}');"></span> {{ block.settings.text }}
                   </div>
                 {%- when 'button' -%}
                   {%- if block.settings.button_label != blank -%}
