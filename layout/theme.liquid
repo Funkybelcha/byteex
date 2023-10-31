@@ -249,6 +249,9 @@
           font-size: 1.6rem;
         }
       }
+      @font-face {
+      font-family: "Font name";src: url({{ "SofiaProRegular" | asset_url }}) format("woff");
+      }
     {% endstyle %}
 
     {{ 'base.css' | asset_url | stylesheet_tag }}
