@@ -438,3 +438,12 @@
 .icons img {
   margin-right: 13px;
 }
+
+.title-banner h1 {
+  color: #01005B;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 45px; /* 118.421% */
+  letter-spacing: 1.52px;
+}
