@@ -95,7 +95,7 @@
                       class="button button-banner {% if block.settings.button_style_secondary %} button--secondary{% else %} button--primary{% endif %}"
                       {{ block.shopify_attributes }}
                     >
-                      {{ block.settings.button_label | escape }}{{ block.settings.button-icon | image_url: width: 10, height: 23 | image_tag }}
+                      {{ block.settings.button_label | escape }} {{ block.settings.button-icon | image_url: width: 10, height: 23 | image_tag }}
                     </a>
                   {%- endif -%}
               {%- endcase -%}
