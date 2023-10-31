@@ -454,3 +454,9 @@
   letter-spacing: 0.54px;
 
 }
+
+.button-banner img {
+  position: relative;
+  left: 28px;
+  top: 13px;
+}
