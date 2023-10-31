@@ -439,3 +439,18 @@
   margin-right: 13px;
 }
 
+.button-banner {
+  width: 356px;
+  height: 56px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background: #01005B;
+  color: #FFF;
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.54px;
+
+}
