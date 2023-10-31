@@ -42,7 +42,21 @@
         "template--21547405017391__97740a39-57f4-4fc6-bd77-828c81fa1786-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Beautiful, comfortable loungewear for day or night.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "df90fea9-28dd-4028-9aa8-a32b3dd6afbe": {
+          "type": "text",
+          "settings": {
+            "text": "<p>No wasteful extras, like tags or plastic packaging.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "09195817-8c7d-4357-b22c-6eb0826c6faf": {
+          "type": "text",
+          "settings": {
+            "text": "<p>No wasteful extras, like tags or plastic packaging.<\/p>",
             "text_style": "body"
           }
         },
@@ -58,6 +72,8 @@
       "block_order": [
         "template--21547405017391__97740a39-57f4-4fc6-bd77-828c81fa1786-heading-1",
         "template--21547405017391__97740a39-57f4-4fc6-bd77-828c81fa1786-text-1",
+        "df90fea9-28dd-4028-9aa8-a32b3dd6afbe",
+        "09195817-8c7d-4357-b22c-6eb0826c6faf",
         "template--21547405017391__97740a39-57f4-4fc6-bd77-828c81fa1786-button-1"
       ],
       "settings": {
