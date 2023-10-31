@@ -67,7 +67,7 @@
           "type": "button",
           "settings": {
             "button_label": "Customize Your Outfit",
-            "button-icon": "shopify:\/\/shop_images\/Vector.png",
+            "button-icon": "shopify:\/\/shop_images\/arrow.png",
             "button_link": "shopify:\/\/collections\/all",
             "button_style_secondary": false
           }
