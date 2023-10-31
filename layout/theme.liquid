@@ -217,9 +217,7 @@
         --variant-pills-shadow-vertical-offset: {{ settings.variant_pills_shadow_vertical_offset }}px;
         --variant-pills-shadow-blur-radius: {{ settings.variant_pills_shadow_blur }}px;
       }
-      @font-face {
-      font-family: "SofiaProRegular";src: url({{ "SofiaProRegular" | asset_url }}) format("woff");
-      }
+
       *,
       *::before,
       *::after {
@@ -241,7 +239,7 @@
         font-size: 1.5rem;
         letter-spacing: 0.06rem;
         line-height: calc(1 + 0.8 / var(--font-body-scale));
-        font-family: SofiaProRegular;
+        font-family: var(--font-body-family);
         font-style: var(--font-body-style);
         font-weight: var(--font-body-weight);
       }
@@ -251,7 +249,9 @@
           font-size: 1.6rem;
         }
       }
-     
+      @font-face {
+      font-family: "SofiaProRegular";src: url({{ "SofiaProRegular" | asset_url }}) format("woff");
+      }
     {% endstyle %}
 
     {{ 'base.css' | asset_url | stylesheet_tag }}
