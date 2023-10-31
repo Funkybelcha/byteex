@@ -95,7 +95,7 @@
                       class="button button-banner {% if block.settings.button_style_secondary %} button--secondary{% else %} button--primary{% endif %}"
                       {{ block.shopify_attributes }}
                     >
-                      {{ block.settings.button_label | escape }}
+                      {{ block.settings.button_label | escape }}{{ block.settings.button-icon | image_url: width: 31 | image_tag }}
                     </a>
                   {%- endif -%}
               {%- endcase -%}
@@ -451,6 +451,11 @@
           "default": "Button label",
           "label": "t:sections.image-with-text.blocks.button.settings.button_label.label",
           "info": "t:sections.image-with-text.blocks.button.settings.button_label.info"        },
+        {
+          "type": "image_picker",
+          "id": "button-icon",
+          "label": "t:sections.image-with-text.settings.image.label"
+        },
         {
           "type": "url",
           "id": "button_link",
