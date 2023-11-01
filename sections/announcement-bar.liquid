@@ -40,9 +40,15 @@
               class="announcement-bar__link link link--text focus-inset animate-arrow"
             >
           {%- endif -%}
-          <p class="announcement-bar__message h5">
+          <p class="announcement-bar__message h5 text-a">
             <span>{{ section.blocks.first.settings.text | escape }}</span>
             {%- if section.blocks.first.settings.link != blank -%}
+              {% render 'icon-arrow' %}
+            {%- endif -%}
+          </p>
+          <p class="announcement-bar__message text-m h5">
+            <span>{{ section.blocks.first.settings.text-m | escape }}</span>
+            {%- if block.settings.link != blank -%}
               {% render 'icon-arrow' %}
             {%- endif -%}
           </p>
@@ -99,8 +105,14 @@
                         class="announcement-bar__link link link--text focus-inset animate-arrow"
                       >
                     {%- endif -%}
-                    <p class="announcement-bar__message h5">
+                    <p class="announcement-bar__message h5 text-a">
                       <span>{{ block.settings.text | escape }}</span>
+                      {%- if block.settings.link != blank -%}
+                        {% render 'icon-arrow' %}
+                      {%- endif -%}
+                    </p>
+                    <p class="announcement-bar__message text-m h5">
+                      <span>{{ block.settings.text-m | escape }}</span>
                       {%- if block.settings.link != blank -%}
                         {% render 'icon-arrow' %}
                       {%- endif -%}
@@ -218,6 +230,20 @@
   </div>
 </div>
 
+{% style%}
+
+.text-m {
+  display:none;
+}
+
+@media only screen and (max-width: 749px){
+  .text-m {display: block;}
+  .text-a {display: none;}
+  
+}
+
+{% endstyle %}
+
 {% schema %}
 {
   "name": "t:sections.announcement-bar.name",
@@ -302,6 +328,12 @@
           "type": "text",
           "id": "text",
           "default": "Welcome to our store",
+          "label": "t:sections.announcement-bar.blocks.announcement.settings.text.label"
+        },
+        {
+          "type": "text",
+          "id": "text-m",
+          "default": "Mobile Text",
           "label": "t:sections.announcement-bar.blocks.announcement.settings.text.label"
         },
         {

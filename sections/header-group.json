@@ -9,6 +9,7 @@
           "type": "announcement",
           "settings": {
             "text": "CONSCIOUSLY MADE BUTTER SOFT STAPLES FOR EVERY DAY (OR NIGHT)   |   FREE SHIPPING on orders > $200   |   easy 45 day return window.",
+            "text-m": "FREE SHIPPING on orders > $200",
             "link": ""
           }
         }
@@ -18,7 +19,7 @@
       ],
       "settings": {
         "color_scheme": "background-1",
-        "show_line_separator": true,
+        "show_line_separator": false,
         "show_social": false,
         "auto_rotate": false,
         "change_slides_speed": 5,
