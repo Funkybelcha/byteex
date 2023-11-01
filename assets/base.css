@@ -1133,7 +1133,7 @@ summary::-webkit-details-marker {
   display: block;
   max-width: 100%;
   position: absolute;
-  top: 80px;
+  top: 30px;
   left: 0;
   height: 90%;
   width: 100%;
