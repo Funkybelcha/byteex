@@ -105,6 +105,12 @@
                         {% render 'icon-arrow' %}
                       {%- endif -%}
                     </p>
+                    <p class="announcement-bar__message text-m h5">
+                      <span>{{ block.settings.text-m | escape }}</span>
+                      {%- if block.settings.link != blank -%}
+                        {% render 'icon-arrow' %}
+                      {%- endif -%}
+                    </p>
                     {%- if block.settings.link != blank -%}
                       </a>
                     {%- endif -%}
