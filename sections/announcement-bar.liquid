@@ -47,7 +47,7 @@
             {%- endif -%}
           </p>
           <p class="announcement-bar__message text-m h5">
-            <span>{{ block.settings.text-m | escape }}</span>
+            <span>{{ section.blocks.first.settings.text-m | escape }}</span>
             {%- if block.settings.link != blank -%}
               {% render 'icon-arrow' %}
             {%- endif -%}
